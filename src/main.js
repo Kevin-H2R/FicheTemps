@@ -1,10 +1,10 @@
 import Vue from "vue";
 import App from "./App.vue";
-import vuetify from './plugins/vuetify';
-import VueClipboard from 'vue-clipboard2'
-VueClipboard.config.autoSetContainer = true 
- 
-Vue.use(VueClipboard)
+import vuetify from "./plugins/vuetify";
+import VueClipboard from "vue-clipboard2";
+VueClipboard.config.autoSetContainer = true;
+
+Vue.use(VueClipboard);
 
 Vue.config.productionTip = false;
 

@@ -1,23 +1,23 @@
 <template>
   <v-app>
     <v-content>
-      <home/>
+      <home />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Home from './components/Home'
+import Home from "./components/Home";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    Home,
+    Home
   },
 
   data: () => ({
     //
-  }),
+  })
 };
 </script>
