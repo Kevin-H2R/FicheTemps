@@ -1,4 +1,17 @@
-# kevtasks
+# Fiche Temps
+
+![Fiche Temps app](public/example.jpg?raw=true "Fiche Temps")
+
+## Description
+
+Generates my weekly activity report.
+
+## General
+
+Copy the file src/misc/example.mail.config.js to src/misc/mail.config.js
+Inside this new file, replace the example email with the email you need to
+send your report to.
+Enjoy
 
 ## Project setup
 ```
