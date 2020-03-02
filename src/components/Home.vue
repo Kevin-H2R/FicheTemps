@@ -112,7 +112,7 @@ export default {
         },
         getBody: function () {
             const assocWorkedDay = {'1': 'Présent', '1/2': 'Demi-Journée', '0': 'Absent'}
-            let result = `Bonjour Bertrand,<br>Ci-dessous tu trouveras mon compte rendu d'activité pour la semaine ${this.week} de ${this.year}:`
+            let result = `Bonjour ${config.name},<br>Ci-dessous tu trouveras mon compte rendu d'activité pour la semaine ${this.week} de ${this.year}:`
             result +=  `<br><br>&nbsp&nbsp&nbsp&nbsp- ${this.monday}: ${assocWorkedDay[this.mondayWorkedDay]}`
             if (this.mondayComment !== null) {
                 result += ` (${this.mondayComment})`
